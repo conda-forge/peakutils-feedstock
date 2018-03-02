@@ -1,24 +1,22 @@
-{% set name = "PeakUtils" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "b846bf44ec2246ffd6ce735a7a89beb3c230b5f6bb9f988a37cd5c569d5a116a" %}
+{% set version = "1.1.1" %}
 
 package:
-  name: {{ name|lower }}
+  name: peakutils
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/P/PeakUtils/PeakUtils-{{ version }}.tar.gz
+  sha256: 8e06b7a2f793fffd8ab144b15c218097072f07285f567c8c021e35d9d96d6de1
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - numpy >=1.8
