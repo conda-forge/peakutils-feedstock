@@ -1,6 +1,6 @@
 {% set name = "PeakUtils" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "b846bf44ec2246ffd6ce735a7a89beb3c230b5f6bb9f988a37cd5c569d5a116a" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "8e06b7a2f793fffd8ab144b15c218097072f07285f567c8c021e35d9d96d6de1" %}
 
 package:
   name: {{ name|lower }}
