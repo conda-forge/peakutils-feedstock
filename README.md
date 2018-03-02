@@ -18,9 +18,7 @@ computation to further increase the resolution of the peak detection.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/peakutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/peakutils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/peakutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/peakutils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/peakutils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/peakutils-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/peakutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/peakutils-feedstock)
 
 Current release info
 ====================
