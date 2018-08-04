@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: peakutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/PeakUtils/PeakUtils-{{ version }}.tar.gz
-  sha256: 8e06b7a2f793fffd8ab144b15c218097072f07285f567c8c021e35d9d96d6de1
+  sha256: f72e064630f97f0ffe3a23cbf129b5cd9b6f7d28c82bbdf8d9f9990fc4772c86
 
 build:
   number: 0
