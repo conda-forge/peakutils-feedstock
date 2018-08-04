@@ -18,12 +18,15 @@ computation to further increase the resolution of the peak detection.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/peakutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/peakutils-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/peakutils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/peakutils-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/peakutils/badges/version.svg)](https://anaconda.org/conda-forge/peakutils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/peakutils/badges/downloads.svg)](https://anaconda.org/conda-forge/peakutils)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-peakutils-green.svg)](https://anaconda.org/conda-forge/peakutils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/peakutils.svg)](https://anaconda.org/conda-forge/peakutils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/peakutils.svg)](https://anaconda.org/conda-forge/peakutils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/peakutils.svg)](https://anaconda.org/conda-forge/peakutils) |
 
 Installing peakutils
 ====================
