@@ -6,21 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 4ff2e7f3330b93024fe8da1ee04e00389e26bcb2ef79bd2f9cf86ccd4962e114
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 1
 
 requirements:
   host:
+    - python {{ python_min }}
     - pip
-    - python >=3.6
+    - setuptools
   run:
     - numpy
-    - python >=3.6
+    - python >={{ python_min }}
     - scipy
 
 test:
@@ -30,6 +31,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://bitbucket.org/lucashnegri/peakutils

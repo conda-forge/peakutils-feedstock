@@ -153,5 +153,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@pgunn](https://github.com/pgunn/)
 * [@xmnlab](https://github.com/xmnlab/)
 
